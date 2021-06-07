@@ -1,0 +1,170 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+button {
+    border: none;
+}
+
+.nav {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+}
+
+.nav-link {
+    margin-right: 10px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.button-apps {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    background-color: #fff;
+    background-image:  url("//ssl.gstatic.com/gb/images/i1_1967ca6a.png");
+    background-position: -132px -38px;
+    opacity: 0.5;
+}
+
+.button-apps:hover {
+    opacity: 0.85;
+}
+
+.user-avatar img{
+    height: 30px;
+    width: 30px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-avatar:hover img{
+    border: 1.5px solid #aaa;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 10rem;
+}
+
+.logo {
+    width: auto;
+    height: 90px;
+    margin-bottom: 10px;
+}
+
+.searchbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 580px;
+    height: 15px;
+    padding: 1rem;
+    padding-right: 1.5rem;
+    border-radius: 30px;
+    border: 0.1px solid #aaa;
+}
+
+.searchbar:hover
+{
+    border-color: white;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+}
+
+.search-icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.search-input {
+    width: 90%;
+   font-size: 20px;
+   border: 0px solid white;
+}
+
+.microphone-icon {
+    width: 25px;
+    height: 25px;
+    background-color: white;
+}
+
+.search-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-search {
+    height: 30px;
+    padding: 5px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin: 8px;
+    margin-top: 35px;
+    font-size: 1rem;
+    opacity: 0.7;
+}
+
+.button-search:hover {
+    border-color: #dadce0;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+}
+
+span {
+    margin-right: 8px;
+}
+
+.language {
+    margin-top: 10px;
+}
+
+.language .nav-link {
+    color: blue;
+}
+
+.footer {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgb(202, 202, 202);
+    background-color: #dadce0;
+    font-size: 15px;
+}
+
+.left-section,
+.right-section {
+    display: flex;
+    flex-direction: row;
+    opacity: 0.7;
+}
+
+.left-section {
+    margin-left: 30px;
+}
+
+.footer-link {
+    display: block;
+    padding: 0.5rem 0 1rem 0.5rem;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
