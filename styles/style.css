@@ -114,8 +114,8 @@ button {
 }
 
 .button-search {
-    height: 30px;
-    padding: 5px;
+    height: auto;
+    padding: 10px;
     border: 1px solid transparent;
     border-radius: 5px;
     margin: 8px;
@@ -126,7 +126,7 @@ button {
 
 .button-search:hover {
     border-color: #dadce0;
-    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    border : 1px solid rgb(148, 147, 147);
 }
 
 span {
@@ -161,9 +161,7 @@ span {
     flex-direction: row;
     opacity: 0.7;
 }
-.left-section {
-    margin-left: 30px;
-}
+
 
 .footer-link {
     display: block;
@@ -173,3 +171,24 @@ span {
 .footer-link:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 660px) {
+    .footer {
+      flex-direction: column;
+    }
+  
+    .searchbar {
+      width: 80%;
+    }
+
+    .language {
+        width: 80%;
+    }
+  
+  }
+
+  @media (max-width : 1200px) {
+      .footer {
+        justify-content: space-evenly;
+      }
+  }
