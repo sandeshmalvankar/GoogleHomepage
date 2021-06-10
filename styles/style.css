@@ -42,7 +42,7 @@ button {
 }
 
 .user-avatar img{
-    height: 30px;
+    height: 29px;
     width: 30px;
     border: 1px solid #ddd;
     border-radius: 50%;
@@ -50,7 +50,7 @@ button {
 }
 
 .user-avatar:hover img{
-    border: 1.5px solid #aaa;
+    border: 1px solid #aaa;
 }
 
 .main {
@@ -97,6 +97,10 @@ button {
    border: 0px solid white;
 }
 
+.search-input:focus-visible {
+    outline: none !important;
+}
+
 .microphone-icon {
     width: 25px;
     height: 25px;
@@ -131,9 +135,11 @@ span {
 
 .language {
     margin-top: 10px;
+    width: 580px;
 }
 
 .language .nav-link {
+    font-size: 12px;
     color: blue;
 }
 
@@ -155,7 +161,6 @@ span {
     flex-direction: row;
     opacity: 0.7;
 }
-
 .left-section {
     margin-left: 30px;
 }
